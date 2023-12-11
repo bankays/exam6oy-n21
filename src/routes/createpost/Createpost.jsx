@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Createpost.css";
 import axios from "axios";
+import { toast } from "react-toastify";
 const Createpost = () => {
   const [select, setSelect] = useState("");
   const [category, setCategory] = useState([]);
@@ -9,16 +10,17 @@ const Createpost = () => {
   const [categorys, setCategorys] = useState("");
   const [description, setDescription] = useState("");
   const token = localStorage.getItem("token");
+
   useEffect(() => {
-    const fetchData = async () => {
-      const response = await axios.get(
-        "https://ill-pink-coati-tie.cyclic.app/api/categories"
-      );
-      setCategory(response.data.data);
-      // console.log(response.data);
-    };
-    fetchData();
-  }, []);
+    axios
+      .get("https://ill-pink-coati-tie.cyclic.app/api/categories")
+      .then((response) => {
+        setCategory(response.data.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  });
 
   const handlcreatepost = (e) => {
     e.preventDefault();

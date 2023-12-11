@@ -5,7 +5,7 @@ const Nav = () => {
   const token = localStorage.getItem("token");
   return (
     <nav>
-      <h1>PROJECT FOR LOGIN</h1>
+      <h1>PROJECT</h1>
       <ul className="nav__list">
         {!token ? (
           <li className="s">
