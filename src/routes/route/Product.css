@@ -1,0 +1,39 @@
+.p10 {
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 50px 0px 0px 0px;
+}
+.pr {
+  height: 900px;
+  /* background-color: aqua; */
+  background: #000;
+}
+.p11 {
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: -30px 0px 0px 900px;
+}
+.img-product-1 {
+  width: 966px;
+  margin: 20px 0px 0px 0px;
+  height: 376px;
+}
+.p12 {
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 0px 0px 130px;
+  width: 700px;
+  text-align: center;
+}

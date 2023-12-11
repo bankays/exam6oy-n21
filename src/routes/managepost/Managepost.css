@@ -1,0 +1,40 @@
+.card3 {
+  width: 200px;
+  height: 200px;
+}
+.card3 img {
+  width: 100%;
+}
+.l {
+  display: flex;
+  flex-wrap: wrap;
+}
+.p22 {
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p33 {
+  color: #fff;
+  padding-top: 10px;
+  font-family: Jomolhari;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card3 {
+  width: 250px !important;
+  /* background-color: rgb(132, 0, 255); */
+  border: 3px solid #f0de36;
+  background: #1e1e1e;
+  height: 350px;
+  margin: 0px 0px 20px 20px;
+}
+.card3 img {
+  width: 250px;
+  height: 200px;
+}

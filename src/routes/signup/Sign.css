@@ -1,0 +1,73 @@
+.sign {
+  margin: 100px 0px 0px 550px;
+  background-color: aqua;
+  width: 450px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 76px;
+  background: #f5c147;
+}
+/* input {
+  width: 100%;
+  text-indent: 10px;
+  padding: 0px 20px 0px 20px;
+
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-right: 20px;
+}
+.auth-form {
+  margin: 50px 0px 0px 0px;
+} */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+input {
+  width: 60%;
+  text-indent: 10px;
+  height: 40px;
+  margin: 10px 0px 0px 90px;
+  /* padding-bottom: 30px; */
+  border-radius: 12px;
+  border: none;
+  padding-right: 30px;
+}
+.pasword-wraper input {
+  /* width: 60%; */
+}
+.auth-form button {
+  background-color: black;
+  color: aliceblue;
+  width: 120px;
+  height: 40px;
+  border-radius: 12px;
+  margin: 20px 0px 0px 170px;
+  border: none;
+}
+.div {
+  margin: 90px 0px 0px 0px;
+}
+.pasword-wraper {
+  position: relative;
+}
+.pasword-wraper svg {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  right: 100px;
+}
+.logo {
+  position: absolute;
+  margin: 20px 0px 0px 180px;
+}
+.titla {
+  position: absolute;
+  margin: 70px 0px 0px 165px;
+}
+.diod {
+  margin: 10px 0px 0px 100px;
+}
